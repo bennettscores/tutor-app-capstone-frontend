@@ -1,0 +1,42 @@
+.navbar {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  align-items: center;
+  justify-items: center;
+  background-color: wheat;
+  height: 70px;
+
+  .menu-icon {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+
+    padding-left: 20px;
+  }
+
+  .navbar-logo {
+    width: 10vw;
+    justify-items: center;
+    img {
+      height: 70px;
+    }
+  }
+
+  .navbar-links {
+    display: flex;
+    width: 20vw;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 20px;
+
+
+    a {
+      font-size: 0.8em;
+      text-decoration: none;
+      color: rgba(30, 29, 87, 0.94);
+      font-weight: 500;
+      
+    }
+  }
+}
